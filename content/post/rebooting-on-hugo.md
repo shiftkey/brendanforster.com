@@ -10,6 +10,7 @@ TL;DR:
 
  - I've been using Jekyll for a while, but I wasn't using GitHub Pages because I wanted to use some syntax highlighing extensions that weren't enabled. There might be a way to do this now, but I'm always stumbling into problems with updating my local Ruby install so revisiting this isn't a priority
  - while GitHub Pages recently rolled out [HTTPS support for custom domains](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/), this site is hosted on Heroku and so I'd need to use their solution (which is still Let's Encrypt-based)
- - it's a static site, but running on Heroku required running Rack and having more moving parts than necessary
- - I'd heard about [Netlify]() but for some reason hadn't connected that I could use it for hosting this blog, and Andrew's post talked about [Hugo](http://gohugo.io/) which I've dabbled with and figured I could port the existing content over (some of it I just want to leave in the past).
+ - it's a static site and was auto-deployed from `master` so it was trivial to push new changes, but running on Heroku required running Rack and having more moving parts than necessary
+ - I'd heard about [Netlify](https://www.netlify.com/) but for some reason hadn't connected that I could use it for hosting this blog, and Andrew's post talked about [Hugo](http://gohugo.io/) which I've dabbled with for another project and figured I could port the existing content over (some of it I just want to leave in the past).
 
+Anyway, the new source for this site is available on [GitHub](https://github.com/shiftkey/brendanforster.com) and now supports HTTPS, so that was a couple of hours well spent on a lazy Sunday. I'll likely be tweaking the theme some more as I get settled in and try to write more often.
