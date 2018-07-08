@@ -44,7 +44,7 @@ questions sometimes not even related to programming.
 I figure this is one way for me to give back to the community that has helped
 me out over the years.
 
-![](http://i.imgur.com/bhNML.gif)
+![](https://i.imgur.com/bhNML.gif)
 
 ## P.S.
 
