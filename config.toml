@@ -1,0 +1,37 @@
+baseURL = "https://brendanforster.com/"
+languageCode = "en-US"
+title = "brendanforster.com"
+theme = "hugo-natrium-theme"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+  page = "/:slug/"
+
+preserveTaxonomyNames = true
+rssLimit = 10
+paginate = 10
+pygmentsCodefences = true
+pygmentsStyle = "native"
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = -110
+
+[[menu.main]]
+    name = "Now"
+    url = "/now/"
+    weight = -110
+
+[params]
+    description = ""
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
