@@ -9,7 +9,7 @@ up to. Every now and again I'll update this.
 
 ## Where?
 
-I'm currently up in Halifax, Nova Scotia.
+I'm currently up in Halifax, Nova Scotia. Planning to be back in Australia in December but not much else planned.
 
 ## Upcoming Conferences
 
