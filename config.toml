@@ -13,15 +13,6 @@ paginate = 10
 pygmentsCodefences = true
 pygmentsStyle = "native"
 
-[taxonomies]
-    category = "categories"
-    tag = "tags"
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = -110
-
 [[menu.main]]
     name = "Now"
     url = "/now/"
