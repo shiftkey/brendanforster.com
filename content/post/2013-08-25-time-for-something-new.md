@@ -52,7 +52,7 @@ It's been a blast, but now it's time for something new...
 
 So I've been at GitHub now for four weeks, and of course I'll use a GIF to summarize it:
 
-![](http://i.imgur.com/V4cvOq4.gif)
+![](https://i.imgur.com/V4cvOq4.gif)
 
 My first week coincided with GitHub Summit - where the whole company gathers in San Francisco for various talks and social events, so it was not what new GitHubbers typically get to experience in their first week.
 

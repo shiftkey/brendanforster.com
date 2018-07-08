@@ -134,7 +134,7 @@ Did you spot the issue? Here's a hint:
 Patch /repos/shiftkey-tester/test/git/refs/heads/master HTTP/1.1
 ```
 
-![](http://i.imgur.com/0IE7YeS.gif)
+![](https://i.imgur.com/0IE7YeS.gif)
 
 The sample code for this request is just some good old `HttpWebRequest` code:
 

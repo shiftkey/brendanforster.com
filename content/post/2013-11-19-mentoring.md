@@ -15,7 +15,7 @@ I'm not pretending to do something original here -
 [people](http://log.paulbetts.org/mentoring-in-tech/) are already throwing
 their hats into the ring with similar offerings, so I figure why not do the same?
 
-![](http://i.imgur.com/WuKZd.gif)
+![](https://i.imgur.com/WuKZd.gif)
 
 ## The Deal
 
@@ -33,7 +33,7 @@ Details:
  - **Skype** brendanforster
  - **Twitter** - @shiftkey
 
-![](http://i.imgur.com/Mlpfb.gif)
+![](https://i.imgur.com/Mlpfb.gif)
 
 ## Why?
 
