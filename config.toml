@@ -19,7 +19,7 @@ pygmentsStyle = "native"
     weight = -110
 
 [params]
-    description = ""
+    description = "Just a site about me and what I've been up to"
 
     [params.logo]
     url = "logo.png"
