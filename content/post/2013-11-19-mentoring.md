@@ -3,7 +3,7 @@ title: Mentoring
 date: 2013-11-19T22:30:00+11:00
 description: They say "be the change you want to see in the world", so let's do that
 aliases:
- - 2013/11/19/mentoring.html
+ - /2013/11/19/mentoring.html
 ---
 
 This is something I've been kicking around in my head for a while, but it took

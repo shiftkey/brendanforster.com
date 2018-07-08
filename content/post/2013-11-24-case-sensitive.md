@@ -1,9 +1,9 @@
 ---
 title: The Case of The Somewhat Case-Sensitive HTTP Method
 date: 2013-10-24T22:30:00+11:00
+description: A cautionary tale about debugging and RFC specifications
 aliases:
   - /blog/case-sensitive.html
-description: A cautionary tale about debugging and RFC specifications
 ---
 
 ## Act 1 - How Did We Get Here?
