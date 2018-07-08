@@ -3,6 +3,8 @@ layout: post
 title: It's time for something new
 date: 2013-08-25T20:30:00+10:00
 description: A quick recap of what happened over the past few months
+aliases:
+ - /2013/08/25/time-for-something-new.html
 ---
 
 I've had this post drafted in my queue for the past couple of months, struggling with how to put the next few words.

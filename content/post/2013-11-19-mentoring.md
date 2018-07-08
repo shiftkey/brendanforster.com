@@ -2,6 +2,8 @@
 title: Mentoring
 date: 2013-11-19T22:30:00+11:00
 description: They say "be the change you want to see in the world", so let's do that
+aliases:
+ - 2013/11/19/mentoring.html
 ---
 
 This is something I've been kicking around in my head for a while, but it took
@@ -15,7 +17,7 @@ I'm not pretending to do something original here -
 [people](http://log.paulbetts.org/mentoring-in-tech/) are already throwing
 their hats into the ring with similar offerings, so I figure why not do the same?
 
-![](https://i.imgur.com/WuKZd.gif)
+![Jesse Pinkman (Breaking Bad) in a car, saying 'What' to the camera](/images/jesse-what.gif)
 
 ## The Deal
 
@@ -33,7 +35,7 @@ Details:
  - **Skype** brendanforster
  - **Twitter** - @shiftkey
 
-![](https://i.imgur.com/Mlpfb.gif)
+![David Tennant (as The Doctor) saying 'Hello' to someone else](/images/hello-dr-who.gif)
 
 ## Why?
 
@@ -44,7 +46,7 @@ questions sometimes not even related to programming.
 I figure this is one way for me to give back to the community that has helped
 me out over the years.
 
-![](https://i.imgur.com/bhNML.gif)
+![John Stewart and Stephen Colbert sipping from fancy tea cups in the street and remarking 'Wow' and 'Bravo' at something happening offscreen](/images/stewart-colbert-wow-bravo.gif)
 
 ## P.S.
 
