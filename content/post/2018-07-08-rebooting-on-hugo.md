@@ -1,6 +1,6 @@
 ---
 title: Spring Cleaning
-date: 2018-06-26T23:00:00-03:00
+date: 2018-07-08
 summary: This has been limping along for a while, so here's me trying to inject some life into this and address some of the pain points so maybe I'll write some more.
 ---
 
