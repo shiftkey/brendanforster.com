@@ -2,6 +2,8 @@
 title: Spring Cleaning
 date: 2018-07-08
 summary: This has been limping along for a while, so here's me trying to inject some life into this and address some of the pain points so maybe I'll write some more.
+aliases:
+  - /2018/06/spring-cleaning/
 ---
 
 Thanks to [Andrew Best](https://twitter.com/_AndrewB) for sharing [this post](https://www.andrew-best.com/posts/creating-a-personal-website-and-blog-in-an-hour/) earlier today about getting a website setup in an hour (and to [Geoffrey Huntley](https://twitter.com/GeoffreyHuntley) for being Andrew's inspiration), as I've been neglecting this site in a few ways and it was precisely the shot in the arm I needed.
