@@ -27,8 +27,8 @@ filesystem.
    shell they're likely to fail.
  - These instructions are tailored to one repository. You'll need to adapt
    these based on the problem file paths you encounter in your situation.
- - This repository should be fixed soon, so you probably won't be able to
-   reproduce the same behaviour by literally running the same commands.
+ - This repository has been fixed, so you probably won't be able to
+   replicate the same behaviour by running the exact same commands either.
 
 ## The Scene - A Failing Clone
 
