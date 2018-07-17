@@ -20,15 +20,15 @@ repository and running it on Windows can be problematic, so the rest of this
 post is about repairing these repositories so they are not tied to a particular
 filesystem.
 
-#### Note
+#### Please note
 
  - All of these operations are being run inside Git Bash that ships with [Git
    for Windows](https://gitforwindows.org/) - if you are trying to perform the same actions in a different
-   shell then they're likely to fail.
+   shell they're likely to fail.
  - These instructions are tailored to one repository. You'll need to adapt
    these based on the problem file paths you encounter in your situation.
- - This repository should be fixed soon, so you probably won't be able to reproduce
-   the same behaviour by literally running the same commands.
+ - This repository should be fixed soon, so you probably won't be able to
+   reproduce the same behaviour by literally running the same commands.
 
 ## The Scene - A Failing Clone
 
