@@ -6,6 +6,7 @@ theme = "hugo-natrium-theme"
 [permalinks]
   post = "/:year/:month/:title/"
   page = "/:slug/"
+  notes = "/notes/:slug/"
 
 preserveTaxonomyNames = true
 rssLimit = 10
@@ -17,6 +18,11 @@ pygmentsStyle = "native"
     name = "Now"
     url = "/now/"
     weight = -110
+
+[[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = -120
 
 [params]
     description = "Just a site about me and what I've been up to"
