@@ -64,17 +64,19 @@ above about valid file path characters? I'll quote the relevant part here:
 
 > Use any character in the current code page for a name, including Unicode characters and characters in the extended character set (128–255), except for the following:
 >
->The following reserved characters:
+> - The following reserved characters:
 >
-> - < (less than)
-> - > (greater than)
-> - : (colon)
-> - " (double quote)
-> - / (forward slash)
-> - \ (backslash)
-> - | (vertical bar or pipe)
-> - ? (question mark)
-> - * (asterisk)
+>   - < (less than)
+>   - > (greater than)
+>   - : (colon)
+>   - " (double quote)
+>   - / (forward slash)
+>   - \ (backslash)
+>   - | (vertical bar or pipe)
+>   - ? (question mark)
+>   - * (asterisk)
+>
+> - ...
 
 
 So we can't use `\` as a path in Windows, but we have a repository that has some
@@ -95,17 +97,17 @@ way.
 
 ## Part 1 - Fix The Problem Checkout
 
-Because `git clone` fails I instead went and emulated the clone operation:
+Because `git clone` fails I used this set of commands to emulate a clone
+operation:
 
 ```
 $ git init test-repo
 $ cd test-repo
 $ git remote add origin https://github.com/MCanterel/Dual_Brains -f
-$ git checkout origin/master -f
 ```
 
-This gets me to a usable repository state, but I still see these problem files
-that need addressing:
+This gets us to a usable repository state, but these problem files still need
+addressing:
 
 ```
 $ git checkout origin/master -f
@@ -126,9 +128,14 @@ do so (now or later) by using -b with the checkout command again. Example:
 HEAD is now at 0cbfb99 Merge remote-tracking branch 'refs/remotes/upstream/master'
 ```
 
-So I'm going to just remove those so I have _something_ to work with:
+I'm going to just remove those so I have _something_ to work with:
 
 ```
+$ git checkout -b fix-path-issue-with-invalid-files
+Switched to a new branch 'fix-path-issue-with-invalid-files'
+D       "test-files/SavedData\\OpenBCI-RAW-aaron+eva.txt"
+D       "test-files/SavedData\\OpenBCI-RAW-friday_test.txt"
+
 $ git status
 On branch fix-path-issue-with-invalid-files
 Changes not staged for commit:
@@ -157,17 +164,17 @@ $ git commit -m "removed files with invalid paths"
  delete mode 100644 "test-files/SavedData\\OpenBCI-RAW-friday_test.txt"
 ```
 
-So we now have no problems checking out this branch, but we did this by removing
-the paths from the repository. If we want to be able to access those files
-in the repository we have more work to do.
+Now we have no problems checking out this branch, but we did this by removing
+the problem paths from the repository. If we want to be able to access those
+files in the repository we have more work to do.
 
 ## Part 2 - Put The Files Back
 
 Git keeps a history of all the file contents for all commits in it's `.git`
 folder, and we can explore this using various Git plumbing commands.
 
-We're going to use `git ls-tree` to read the tree contents of a given hash and
-find the original contents of the files we just removed.
+We can use `git ls-tree` to read the tree contents of a given hash and
+find the original contents of the files we just removed:
 
 ```
 $ git ls-tree origin/master
@@ -234,8 +241,8 @@ gwarning: LF will be replaced by CRLF in test-files/SavedData/OpenBCI-RAW-friday
 The file will have its original line endings in your working directory.
 ```
 
-I'm not worried about the line ending warning here, and I can confirm this later
-on.
+I'm not worried about the line ending warning here, and I can confirm this is
+accurate once we've completed these steps.
 
 Now we can commit these files to the new path:
 
