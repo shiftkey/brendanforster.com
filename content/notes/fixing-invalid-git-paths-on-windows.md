@@ -22,12 +22,12 @@ filesystem.
 
 #### Note
 
- - All of these operations are being run inside Git Bash that ships with Git
-   for Windows - if you are trying to perform the same actions in a different
+ - All of these operations are being run inside Git Bash that ships with [Git
+   for Windows](https://gitforwindows.org/) - if you are trying to perform the same actions in a different
    shell then they're likely to fail.
  - These instructions are tailored to one repository. You'll need to adapt
    these based on the problem file paths you encounter in your situation.
- - This repository should be fixed soon, so you probably be able to reproduce
+ - This repository should be fixed soon, so you probably won't be able to reproduce
    the same behaviour by literally running the same commands.
 
 ## The Scene - A Failing Clone
