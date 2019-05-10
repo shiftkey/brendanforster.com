@@ -433,10 +433,6 @@ blockquote {
   content: "\f09b";
 }
 
-.fa-twitter::before {
-  content: "\f099";
-}
-
 .fa-tags::before {
   content: "\f02c";
   float: left;

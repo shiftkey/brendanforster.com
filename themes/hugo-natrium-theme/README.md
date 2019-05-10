@@ -8,7 +8,7 @@ Natrium includes: taxonomies (categories, tags), static footer, new fonts (Robot
 
 ## History
 
-I learned a lot while playing with the code from Lithium. I'm an absolutly beginner. Please report any issue you recognize.
+I learned a lot while playing with the code from Lithium. I'm an absolute beginner. Please report any issues you recognize.
 
 ## Features
 
