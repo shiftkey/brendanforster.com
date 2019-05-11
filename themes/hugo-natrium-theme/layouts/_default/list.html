@@ -3,12 +3,11 @@
 <main class="content">
 
   <div class="list">
-     {{ range (.Paginate ((where .Data.Pages "Type" "notes").GroupByDate "2006")).PageGroups }}
-  <h2 class="list-title">{{ .Key }}</h2>
+    {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups  }}
+    <h2 class="list-title">{{ .Key }}</h2>
     {{ range .Pages }}
 
     {{ partial "list-item.html" . }}
-
     {{ end }}
     {{ end }}
   </div>
