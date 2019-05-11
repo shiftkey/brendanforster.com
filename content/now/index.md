@@ -9,15 +9,19 @@ up to. Every now and again I'll update this.
 
 ## Where?
 
-I'm currently up in Halifax, Nova Scotia. Planning to be back in Australia in December but not much else planned.
+Currently up in Halifax, Nova Scotia.
 
 ## Upcoming Conferences
 
-None planned.
+A trip to Fiji in July for a long-overdue holiday. Nothing else planned.
 
 ## Side Projects
 
-Work's been busy. I'll revisit this later.
+I've teamed up with [@robmen](https://twitter.com/robmen) to help provide some
+new project leadership to [Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows/).
+
+Aside from that and the ongoing maintainership of some Node packages, I don't
+have any real time for other side projects.
 
 ## What about XYZ?
 
