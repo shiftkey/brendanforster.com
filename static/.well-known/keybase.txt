@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/shiftkey
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://brendanforster.com
+  * I am shiftkey (https://keybase.io/shiftkey) on keybase.
+  * I have a public key ASDmd1m3Cn2xb5L97wxA5O338UyHWeulLdG3-S2FYIXNQAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012082c2fd19416fb0d6b67cc7656f41f8ccae9796eb2d8cdccc2f5b9c99cf116caa0a",
+      "host": "keybase.io",
+      "kid": "0120e67759b70a7db16f92fdef0c40e4edf7f14c8759eba52dd1b7f92d856085cd400a",
+      "uid": "e0bed63e045bf5033abf911ebf318019",
+      "username": "shiftkey"
+    },
+    "merkle_root": {
+      "ctime": 1557580196,
+      "hash": "e3bcb89176969d859bca36a6a5b20e1f15f1495fab19b975cd351025644b0b75a9170d95e60bb79e39f176aa41af48957a201296e9c70eb3b256cb77c55a5350",
+      "hash_meta": "a1aa651277f61c8d6957dd49d46a3c4c748168d5cc5c0ab1eaf13f40d29300e2",
+      "seqno": 5349123
+    },
+    "service": {
+      "entropy": "9wVyTakvp4iQ6Y0EIm3sY6+p",
+      "hostname": "brendanforster.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.0.0"
+  },
+  "ctime": 1557580210,
+  "expire_in": 504576000,
+  "prev": "df49923017af4407cae770872f54a439f4dfbfdbaa22123866f756225b3327a3",
+  "seqno": 25,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5ndZtwp9sW+S/e8MQOTt9/FMh1nrpS3Rt/kthWCFzUAKp3BheWxvYWTESpcCGcQg30mSMBevRAfK53CHL1SkOfTfv9uqIhI4ZvdWIlszJ6PEIGD6D2vDeKC++YFldEEcehiffZSW9VAc1WTSd6nRJQ45AgHCo3NpZ8RAXOjHBfagPGnmFO3LRQishhjsdilxZHz17WhnzZcnf3aHrwricNdTxCymyx1qy/peIy21FxBiwdRs2PM1G/ayCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIVmOkRhvlONPFn7nx3dzi2kyyIUZci+CGi4sx48Jx2uo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/shiftkey
+
+==================================================================
