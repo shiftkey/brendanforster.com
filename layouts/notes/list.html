@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+<main class="content">
+
+  This section contains various interesting topics or articles about stuff I
+  work on or use, that I feel don't fit best in a blog-style format.
+
+ <div class="list">
+    {{ range .Pages.GroupByParam "area" }}
+    <h2 class="list-title"> {{ .Key }} </h2>
+        {{ range .Pages }}
+        {{ partial "note-list-item.html" . }}
+        {{ end }}
+    {{ end }}
+ </div>
+
+</main>
+
+{{ partial "footer.html" . }}

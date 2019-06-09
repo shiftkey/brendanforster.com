@@ -1,0 +1,12 @@
+    <nav class="list-item">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ if eq .Params.draft true  }}
+      <span class="list-item-draft">
+          draft
+      </span>
+      {{ else }}
+      <span class="list-item-date">
+          {{ .Lastmod.Format "January 2, 2006"  }}
+      </span>
+      {{ end }}
+    </nav>
