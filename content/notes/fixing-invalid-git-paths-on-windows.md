@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fixing Invalid Git Paths on Windows
-date: 2018-07-17
+area: Git
 ---
 
 One of the _fun_ things about working with Git on Windows is that you're often
