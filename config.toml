@@ -26,9 +26,3 @@ pygmentsStyle = "native"
 
 [params]
     description = "Just a site about me and what I've been up to"
-
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
