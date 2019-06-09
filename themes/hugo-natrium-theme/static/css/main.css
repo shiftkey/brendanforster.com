@@ -250,6 +250,14 @@ blockquote {
   font-size: 14px;
 }
 
+.list-item-draft {
+  display: block;
+  padding: 4px 0;
+  font-family: 'Lato', sans-serif;
+  color: #ccc;
+  font-size: 14px;
+}
+
 .list-item a {
   display: inline-block;
   box-sizing: border-box;
@@ -509,6 +517,13 @@ blockquote {
   }
 
   .list-item-date {
+    padding: 5px 0;
+    font-size: 17px;
+    text-align: right;
+    float: right;
+  }
+
+  .list-item-draft {
     padding: 5px 0;
     font-size: 17px;
     text-align: right;
