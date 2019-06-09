@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "**/public": true,
+        "**/resources": true
+    }
+}
