@@ -1,0 +1,5 @@
+# Workaround to address staged deploy issues with CORS
+/fonts/*
+  Access-Control-Allow-Origin: *
+/css/*
+  Access-Control-Allow-Origin: *
