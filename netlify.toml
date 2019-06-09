@@ -7,7 +7,7 @@
   HUGO_ENABLEGITINFO="true"
 
 [context.deploy-preview]
-command = "hugo --buildDrafts --gc -b \"$DEPLOY_PRIME_URL/\""
+command = "hugo --buildDrafts --gc -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
   HUGO_VERSION="0.55.6"
