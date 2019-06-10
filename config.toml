@@ -11,8 +11,10 @@ theme = "hugo-natrium-theme"
 preserveTaxonomyNames = true
 rssLimit = 10
 paginate = 10
-pygmentsCodefences = true
-pygmentsStyle = "native"
+
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+pygmentsStyle = "monokai"
 
 [[menu.main]]
     name = "Now"
