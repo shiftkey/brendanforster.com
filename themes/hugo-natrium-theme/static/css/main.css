@@ -156,6 +156,7 @@ blockquote {
 
 .article-content p {
   margin: 15px 0 25px;
+  hyphens: none;
 }
 
 .article-content a {
@@ -562,5 +563,11 @@ blockquote {
 
   .error-page-title {
     font-size: 114px;
+  }
+}
+
+@media (min-width: 900px) {
+  .content {
+    max-width: 900px;
   }
 }
