@@ -86,13 +86,13 @@ Lastly we tell Docker we want our image to be an executable, and to run our scri
 
 The last part is the workflow file, which is defined by the user and allows workflows consisting of many actions, connecting them all together.
 
-I couldn't figure out a way to automagically get this running via code, so we're going to use the interactive editor for now.
+I haven't yet figure out a way to automagically get the action running from a `git push`, so we're going to use the interactive editor for now.
 
 After getting access to the GitHub Actions beta, a new Actions tab appears in the repository view:
 
 ![header with action tab](/images/github-action-hello-ruby/header-with-action-tab.png)
 
-Click into that tab, and you'll be asked to setup your first workflow:
+Click into that tab and you'll be asked to setup your first workflow:
 
 ![prompt to create an action](/images/github-action-hello-ruby/create-the-action.png)
 
@@ -108,6 +108,8 @@ action "Say Hello Ruby" {
   uses = "./.github/actions/hello-ruby"
 }
 ```
+
+If you're curious about the workflow file and it's schema, go read [Jessie's post](https://blog.jessfraz.com/post/the-life-of-a-github-action/) - that covers it in more detail.
 
 I commit directly to `master` because I'm feeling dangerous today, and because I'm impatient I skip filling out anything more than the placeholders:
 
