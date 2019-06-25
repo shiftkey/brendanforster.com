@@ -51,7 +51,7 @@ There's plenty of Docker introduction article out there if you want to learn mor
 FROM ruby:2.6-stretch
 ```
 
-There are plenty of [different versions of Ruby](https://hub.docker.com/_/ruby) listed on Docker Hub. I just use the latest stable release because that seems sensible for the moment.
+There are plenty of [different versions of Ruby](https://hub.docker.com/_/ruby) listed on Docker Hub. I just use the latest stable image because that seems sensible for the moment.
 
 ```dockerfile
 LABEL "com.github.actions.name"="Hello Ruby"
@@ -68,19 +68,19 @@ COPY Gemfile ./
 RUN bundle install
 ```
 
-The first part building the container to run is installing any dependencies that our script needs. We've provided an empty `Gemfile` here, so this is a no-op, but in the future we can add additional dependencies and use them in our script.
+The first part of building the image is installing any dependencies that our script needs. We've provided an empty `Gemfile` here, so this is a no-op, but in the future we can add additional dependencies and use them in our script.
 
 ```dockerfile
 COPY . .
 ```
 
-After installing gems, this now moves all other files in this directory into the Docker container.
+After installing gems, this now moves all other files in this directory into the Docker image.
 
 ```dockerfile
 ENTRYPOINT ["ruby", "/hello-ruby.rb"]
 ```
 
-Lastly we tell Docker we want our container to be an executable, and to run our script at the time.
+Lastly we tell Docker we want our image to be an executable, and to run our script at the time.
 
 ## Crafting the Workflow
 
