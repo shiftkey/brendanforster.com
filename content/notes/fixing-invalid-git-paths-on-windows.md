@@ -35,7 +35,7 @@ filesystem.
 You might have stumbled upon an error like this when cloning down someone else's
 repository:
 
-```sh
+```
 $ git clone https://github.com/MCanterel/Dual_Brains
 Cloning into 'Dual_Brains'...
 remote: Counting objects: 12023, done.

@@ -120,7 +120,7 @@ results = Dir.glob(projects).map { |path| verify_file(path) }
 
 By the time I was done with testing the action, this was what my `docker run` setup looked like:
 
-```shellsession
+```
 $ docker run -e GITHUB_REPOSITORY='shiftkey/up-for-grabs.net' \
    -e GITHUB_TOKEN='some-token-here' \
    -e GITHUB_SHA='$(git rev-parse origin/HEAD)' \
