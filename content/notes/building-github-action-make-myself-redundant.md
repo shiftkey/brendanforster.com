@@ -317,15 +317,13 @@ action "Cleanup archived projects" {
 
 This action runs at 18:00 UTC every day, which should be sufficent to stay on top of any stale projects. I'll probably scale it back later to weekly.
 
-## Future Work
+## Is it done?
 
 You can find the pull request to add this action to Up for Grabs at [`up-for-grabs.net#1257`](https://github.com/up-for-grabs/up-for-grabs.net/pull/1257), as well as an example of what a pull request to remove a deprecated project looks like in [`up-for-grabs.net#1263`](https://github.com/up-for-grabs/up-for-grabs.net/pull/1263).
 
-There's some ideas for polish that I'm thinking about currently:
+Future ideas that I'm thinking about:
 
- - Caching open pull requests and files to save on API calls
- - Speeding up the code
+ - Caching open pull requests and pull request files to save on API calls
+ - Investigate whether I can speed up the code using concurrency or parallelization
  - Making the code more maintainable
- - Exploring whether we could fetch GitHub API information to enhance the site
-   - As this is a GitHub Pages site, we could refresh content for the site and publish that automagically
-   - This could be a way to workaround unauthenticated GitHub API limits that users hit when viewing the site
+ - Explore whether we could merge information from the GitHub API with project data when publishing the site
