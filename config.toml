@@ -3,16 +3,16 @@ languageCode = "en-US"
 title = "brendanforster.com"
 theme = "hugo-natrium-theme"
 
+preserveTaxonomyNames = true
+rssLimit = 10
+paginate = 10
+pygmentsCodeFences=true
+pygmentsUseClasses=true
+
 [permalinks]
   post = "/:year/:month/:title/"
   page = "/:slug/"
   notes = "/notes/:slug/"
-
-preserveTaxonomyNames = true
-rssLimit = 10
-paginate = 10
-pygmentsCodefences = true
-pygmentsStyle = "native"
 
 [[menu.main]]
     name = "Now"
