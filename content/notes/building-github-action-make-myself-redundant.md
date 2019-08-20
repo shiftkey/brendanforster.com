@@ -4,6 +4,8 @@ title:  Building a GitHub Action to make myself redundant
 area: GitHub
 ---
 
+**Note: this example is based on Actions v1, and needs to be updated because Actions v2 does things differently in a couple of places. I'll drop this note once I've updated the post.**
+
 The details from the [previous article](/notes/github-actions-hello-world-in-ruby/) are a baseline for what I was _actually_ working on last weekend. And before we get to the fun stuff, we need some context.
 
 ## What are we making?
