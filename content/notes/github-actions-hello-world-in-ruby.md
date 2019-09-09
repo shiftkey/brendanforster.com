@@ -4,8 +4,6 @@ title: GitHub Actions - Hello World in Ruby
 area: GitHub
 ---
 
-**Note: this example is based on Actions v1, and needs to be updated because Actions v2 does things differently in a couple of places. I'll drop this note once I've updated the post.**
-
 I've been meaning to dive into [GitHub Actions](https://github.com/features/actions) for a while, but it took until this past weekend to find some time to see something through to completion.
 
 Before I talk about that, I wanted to walk through the scaffolding that a GitHub Action needs, using a simple example script. This will help understand how it all hangs together and we can build on top of it.
@@ -86,7 +84,7 @@ Lastly we tell Docker we want our image to be an executable, and to run our scri
 
 ## Crafting the Workflow
 
-The last part is the workflow file, which is defined by the user and allows workflows consisting of many actions, connecting them all together.
+The last part is a workflow file, which is defined by the user and allows workflows consisting of many actions, connecting them all together.
 
 I haven't yet figure out a way to automagically get the action running from a `git push`, so we're going to use the interactive editor for now.
 
@@ -101,17 +99,19 @@ Click into that tab and you'll be asked to setup your first workflow:
 Rather than use the visual editor, I'm going to save time and switch over to the file editor and just paste in this entire config file:
 
 ```
-workflow "When new commits pushed" {
-  resolves = ["Say Hello Ruby"]
-  on = "push"
-}
-
-action "Say Hello Ruby" {
-  uses = "./.github/actions/hello-ruby"
-}
+on: push
+name: When new commits pushed
+jobs:
+  sayHelloRuby:
+    name: Say Hello Ruby
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Say Hello Ruby
+      uses: ./.github/actions/hello-ruby
 ```
 
-If you're curious about the workflow file and it's schema, go read [Jessie's post](https://blog.jessfraz.com/post/the-life-of-a-github-action/) - that covers it in more detail.
+If you're curious about the workflow file, the full specification is available on [help.github.com](https://help.github.com/en/articles/workflow-syntax-for-github-actions).
 
 I commit directly to `master` because I'm feeling dangerous today, and because I'm impatient I skip filling out anything more than the placeholders:
 
