@@ -4,8 +4,6 @@ title:  Building a GitHub Action to make myself redundant
 area: GitHub
 ---
 
-**Note: this example is based on Actions v1, and needs to be updated because Actions v2 does things differently in a couple of places. I'll drop this note once I've updated the post.**
-
 The details from the [previous article](/notes/github-actions-hello-world-in-ruby/) are a baseline for what I was _actually_ working on last weekend. And before we get to the fun stuff, we need some context.
 
 ## What are we making?
@@ -306,18 +304,23 @@ In the [previous article](/notes/github-actions-hello-world-in-ruby/) I configur
 I changed the workflow file to run once every 24 hours:
 
 ```
-workflow "Daily Work" {
-  on = "schedule(0 18 * * *)"
-  resolves = ["Cleanup archived projects"]
-}
-
-action "Cleanup archived projects" {
-  uses = "./.github/actions/cleanup-archived-projects"
-  secrets = ["GITHUB_TOKEN"]
-}
+on:
+  schedule:
+  - cron: 0 18 * * 0
+name: Project Cleanup
+jobs:
+  cleanupArchivedProjects:
+    name: Cleanup archived projects
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Cleanup archived projects
+      uses: ./.github/actions/cleanup-archived-projects
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-This action runs at 18:00 UTC every day, which should be sufficent to stay on top of any stale projects. I'll probably scale it back later to weekly.
+This action runs at 18:00 UTC once a week, which should be sufficent to stay on top of any stale projects.
 
 ## Is it done?
 
