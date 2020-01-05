@@ -13,22 +13,18 @@ Currently up in Halifax, Nova Scotia.
 
 ## Upcoming Conferences
 
-A trip to Fiji in July for a long-overdue holiday. Nothing else planned.
+None planned. Life changes and being sick of long-haul travel.
 
 ## Side Projects
 
-I've teamed up with [@robmen](https://twitter.com/robmen) to help provide some
-new project leadership to [Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows/).
+I had a bunch of life and work changes in 2019 which mean I'm now re-evaluating
+what this means for the open source projects that I currently maintain.
 
-Aside from that and the ongoing maintainership of some Node packages, I don't
-have any real time for other side projects.
+If you're waiting for me to look at something, it's probably not going to happen
+in a hurry. Sorry.
 
-## What about XYZ?
-
-I'm trying to narrow the amount of things I have going on at once to get a
-better work-life balance. I don't mind making myself available to bounce ideas
-around if time permits, but I'd have to take things off my plate before
-considering new work.
+I might start some new fun projects to scratch some new itches, but nothing
+serious planned.
 
 ## I want to get in touch!
 
