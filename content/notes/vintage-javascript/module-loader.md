@@ -1,93 +1,13 @@
 ---
 layout: post
-title: Making working JavaScript more modular without rewriting the world
-area: JavaScript
+title: Introducing a module loader
+area: Vintage JavaScript
 ---
 
-This post is a series of experiments and explorations about how to bring some
-personal sanity to an existing JS codebase that I need to support. I've had some
-initial wins, so I figure this is a good chance to write up some notes and share
-what I'm up against and where I'm heading.
-
-## The History
-
-[Up for Grabs](https://up-for-grabs.net/) is a little codebase that started in
-2013 and grew organically without us really thinking about it. Since that time
-we've seen a lot of change in the JavaScript ecosystem:
-
- - NodeJS started to get people's attention as a way of building apps using the
-   same language on the server as on the client. io.js forked from NodeJS in
-   2014, but was merged back into NodeJS in 2015 with the introduction of the
-   NodeJS foundation
- - NPM because the de-facto way to publish and consume JavaScript libraries,
-   using CommonJS as a format to synchronously load modules. There are some
-   other formats out there (AMD, UMD, ESModules) which may be supported
-   depending on how popular the library is
- - JavaScript developers moved away from thinking about minifying their
-   JavaScript and towards **bundling** because as the complexity of their
-   application code increased. Tools like Browserify, Rollup and Webpack started
-   to address this need, and there was much rejoicing.
- - A project named **5to6** was started in 2014 to support upgrading existing
-   JavaScript from EcmaScript 5 to EcmaScript 6. This later evolved into
-   BabelJS, a full environment for using newer JavaScript syntax but
-   transpiling the code in a way that was backwards-compatible to the user
-   running the code.
- - EcmaScript 6 was formalized in 2015, and the TC39 technical committee working
-   on standardizing the JavaScript language has continued to introduce updates
-   to this annually - ES2016, ES2017 and so on
-
-This barely scratches the surface of all the things that have influenced modern
-JavaScript development, but all of these topics are relevant to our little
-project.
-
-We're also limited in some way from being able to adopt new things:
-
- - this is a static site generator and doesn't provide hooks to perform bundling
-   of our JavaScript assets (or anything similar)
- - modern browsers have improved their support of standards since 2013, but I'm
-   still not ready to block certain user agents unless absolutely necessary
- - we've learned better ways to manage JavaScript as our applications have
-   become more complex, but we need to refactor our current code to be able to
-   work in this way
-
-## Modern JS without a fancy toolchain
-
-After spending the previous couple of years full-time a Node + TypeScript +
-React project, stepping back into this codebase was jarring. I definitely missed
-a lot of the things that came with modern web development, and I was curious
-how much I could port back to Up for Grabs without having to rewrite large
-chunks of it.
-
-Here are my goals:
-
- - **incremental improvements** - be able to continually ship changes, and have the
-   site stay working throughout the process
- - **modularity** - we want to move away from having a monolithic script for the
-   logic, and instead compose the app together at runtime from a number of
-   modules that are well-maintained
- - **automated tests** - there are some annoying bugs that we've regressed because
-   of a lack of test coverage - can we prevent these from reaching users?
- - **good local development experience** - you should be able make a change to a
-   file, reload the site and see the changes immediately - no in-between steps
-   to transpile to bundle things
-
-Armed with those goals, here's what we've done since.
-
-### Automate deployments of pull requests to Netlify
-
-Netlify is a great product for deploying websites like ours, and their GitHub
-integration means that each PR that's opened against the project gets a public
-URL that you can view and verify the changes with.
-
-This has been a huge timesaver for reviewers because they don't need to build
-and verify the changes locally - they can just browse to the Preview Deploy URL
-instead.
-
-### Find a module loader for the web
-
-With automated deployments in place the next step on our journey was to figure
-out a better way to manage our scripts. At the time we explicitly listed these
-dependencies in the footer of the HTML file:
+With [automated deployments](/notes/netlify-integration-with-github-pull-requests/)
+in place the next step on our journey was to figure out a better way to manage
+our scripts. At the time we explicitly listed these dependencies in the footer
+of the HTML file:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
@@ -132,7 +52,7 @@ define(['jquery'] , function ($) {
 });
 ```
 
-### Integrate `requirejs` as a module loader
+## Integrate `requirejs` as a module loader
 
 To use AMD in your web application, you need to do three things:
 
@@ -164,7 +84,7 @@ requirejs(["main"]);
 **Note:** Yes, I've mixed up `app` and `main` here in a potentially confusing
 way. I might fix that in the future.
 
-#### Requiring external scripts
+## Requiring external scripts
 
 Remember that list of external modules listed as `script` tags before our
 application code? We can move those into the requirejs config so our module
@@ -248,7 +168,7 @@ There were some smaller changes to make during this process, but that was
 related to our usage of third-party libraries that was impacted by the module
 loader changes. Aside from that it was a pretty smooth transition.
 
-### Test `projectsService` in NodeJS
+## Test `ProjectsService` in NodeJS
 
 As the [RequireJS docs](https://requirejs.org/docs/node.html) mention you need
 to insert an AMD loader (`amdefine` was the recommendation) at the start of the
@@ -278,4 +198,3 @@ NPM, so that you can leverage those dependencies in a test runner directly.
 
 There's probably some side-effects I'll uncover here as I go further with this,
 but for now it's working great.
-
