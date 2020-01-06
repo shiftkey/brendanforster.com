@@ -23,7 +23,7 @@ going around:
 The user was getting a 502 repeatedly from this API, and the contents were not
 JSON like he was requesting, but a very boring HTML page:
 
-```
+```html
 <html><body><h1>502 Bad Gateway</h1>
 The server returned an invalid or incomplete response.
 </body></html>
@@ -53,7 +53,7 @@ it was tremendously helpful.
 So I dropped this into the `app.config` file for my test application and ran it
 again:
 
-```
+```xml
 <configuration>
   <system.diagnostics>
     <sources>
@@ -138,7 +138,7 @@ Patch /repos/shiftkey-tester/test/git/refs/heads/master HTTP/1.1
 
 The sample code for this request is just some good old `HttpWebRequest` code:
 
-```
+```c#
 var webRequest = WebRequest.Create(sourceUrl);
 webRequest.Method = method;
 ...
@@ -153,7 +153,7 @@ but this is the bed we've chosen to sleep in this time).
 
 So when these requests were being created, they were just strings like this:
 
-```
+```c#
 webRequest.Method = "Post";
 webRequest.Method = "Patch";
 ```
@@ -206,6 +206,7 @@ EDIT: so the always-friendly [Darrel Miller](https://darrelmiller.com/) pointed 
 that the
 [System.Net.Http.HttpMethod](http://msdn.microsoft.com/en-us/library/system.net.http.httpmethod.aspx)
 used in HttpClient is actually a class in it's own right (and thus extensible).
+
 ### The Server
 
 RFC 2616 Section 5.1.1 also states:
@@ -232,7 +233,6 @@ problem at hand.
 
 In both examples above, I got two different results - neither of which aligned
 with what the specification indicated.
-
 
 ### Appendix: The Vibe Of The Thing
 
