@@ -3,6 +3,7 @@
   font-family: 'Roboto Mono';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: local('Roboto Mono'), local('RobotoMono-Regular'),
        url('../fonts/roboto-mono-v5-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/roboto-mono-v5-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -12,6 +13,7 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: local('Lato Regular'), local('Lato-Regular'),
        url('../fonts/lato-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/lato-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -21,6 +23,7 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: local('Lato Bold'), local('Lato-Bold'),
        url('../fonts/lato-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/lato-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -30,6 +33,7 @@
   font-family: 'Lato';
   font-style: italic;
   font-weight: 400;
+  font-display: swap;
   src: local('Lato Italic'), local('Lato-Italic'),
        url('../fonts/lato-v14-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/lato-v14-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -39,6 +43,7 @@
   font-family: 'Lato';
   font-style: italic;
   font-weight: 700;
+  font-display: swap;
   src: local('Lato Bold Italic'), local('Lato-BoldItalic'),
        url('../fonts/lato-v14-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/lato-v14-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -48,6 +53,7 @@
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: local('Merriweather Regular'), local('Merriweather-Regular'),
        url('../fonts/merriweather-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/merriweather-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -57,6 +63,7 @@
   font-family: 'Merriweather';
   font-style: italic;
   font-weight: 400;
+  font-display: swap;
   src: local('Merriweather Italic'), local('Merriweather-Italic'),
        url('../fonts/merriweather-v19-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/merriweather-v19-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -66,6 +73,7 @@
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: local('Merriweather Bold'), local('Merriweather-Bold'),
        url('../fonts/merriweather-v19-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/merriweather-v19-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -75,6 +83,7 @@
   font-family: 'Merriweather';
   font-style: italic;
   font-weight: 700;
+  font-display: swap;
   src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'),
        url('../fonts/merriweather-v19-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/merriweather-v19-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -86,4 +95,5 @@
   src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
