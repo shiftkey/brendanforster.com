@@ -4,13 +4,14 @@ date: 2020-01-06
 summary: Writing up some words so that I can refer back to them later.
 ---
 
-I've been on holidays and after the delays, the chaos of Christmas with my
-family and some downtime at the beach for New Years I've finally had a chance
+I've been on holidays and after the airport delays, the chaos of Christmas with
+my family and some downtime at the beach for New Years I've finally had a chance
 to reflect on what I want to do in 2020.
 
 There's definitely a theme of reflection in the goals I've set, and it's
 probably because 2019 was a bit of a blur. I've also included some tangible
-goals to verify the goal (a habit from the new team I've been working with).
+goals to verify how I achieve a resolution (a habit from the new team I've been
+working with).
 
 ## Re-evaluate my relationship with social media
 
@@ -19,8 +20,8 @@ was a point where I started to noticeably feel that I didn't get value from the
 platform relative to the time spent there.
 
 I thought about just burning my account to the ground a couple of time last
-year, but without an alternative way to keep in touch with friends there I
-paused that idea.
+year, but without an alternative way to keep in touch with friends I've
+accumlated there I paused that idea.
 
 I disabled notifications on my phone for most of my apps a few years ago (that's
 a rant for another time) to reduce distractions, which helped greatly back then,
@@ -49,6 +50,12 @@ anything important up there.
 I did make a start on some new posts in 2019 around side projects, a couple of
 which were published, but most of them sit in the drafts because they were too
 long and needed editing work.
+
+I think by breaking big posts down into series and publishing early work (even
+if it's a bit rough) should help with getting into the habit. I switched this
+site over to use [Hugo](https://gohugo.io/) and have barely scratched the
+surface of what it's capable of, so I should try and bend it to my will here
+about authoring and publishing content.
 
 **Success criteria:** 20 new posts somewhere on this site (does this count as
 the first one?)
