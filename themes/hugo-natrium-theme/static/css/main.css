@@ -571,3 +571,7 @@ blockquote {
     max-width: 900px;
   }
 }
+
+aside blockquote {
+  font-size: 16px;
+}
