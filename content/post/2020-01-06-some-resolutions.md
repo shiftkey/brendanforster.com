@@ -55,20 +55,22 @@ the first one?)
 
 ## Maintain the Bullet Journal habit
 
-I wasn't happy with how I was organizing myself, and felt there was a gap
-between calendars, emails and notes that could be used. I'd also been following
-the [Bullet Journal](https://bulletjournal.com/) project and been craving some
-excuses for pen-and-paper work.
+I wasn't happy with how I was organizing myself last year, and felt there was a
+gap between calendars, emails and notes that could be used. I'd heard about the
+[Bullet Journal](https://bulletjournal.com/) project years ago and have been
+craving some excuses for pen-and-paper work, so I pored over the material to
+understand more.
 
 In July I'd setup a new book for BuJo (as the cool kids say) and stuck to
-journalling for a couple of months, but I didn't keep up the habit as I'd leave
-it in my bag and forget to keep it handy and up to date. One attempt to
-"backfill" in September to catch up helped a bit, but then I fell away again
-a couple of weeks after and didn't bother again.
+journalling for a couple of months, but I had troubles keeping disciplined as
+I'd leave it in my bag or forget to keep it up-to-date. One attempt to
+"backfill" in September to catch up helped a bit, but then I fell away again a
+couple of weeks after and didn't bother again.
 
-I've definitely missed having it around to fill out and refer back to as the
-end of the year got busier, so I think declaring "bankruptcy", finding some new
-pens to use and restarting with a bit more discipline will help.
+I've definitely missed having it around to fill in regularly and refer back to
+later, especially with the end of year being busier. I think declaring
+"bankruptcy", finding some new pens to use and restarting with a bit more
+discipline will help.
 
 **Success criteria:** a completed Moleskine book or 12 months of Bullet Journal
 activity, whichever comes first.
