@@ -220,5 +220,6 @@ burden**, and the pain is acute for small or solo projects that accidentally get
 successful and find themselves with a lot of users.
 
 We can automate things to save time on repetitive tasks like updating
-dependencies and testing proposed changes, but there still needs to be a human
-involved to ensure the changes move the project in the right direction.
+dependencies and testing proposed changes, but most of the time I believe there
+needs to be a human involved to ensure the changes move the project in the right
+direction.
