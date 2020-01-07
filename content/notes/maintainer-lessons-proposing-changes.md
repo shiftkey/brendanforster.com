@@ -130,19 +130,19 @@ When you're proposing a change, make sure you think about how it benefits the
 project.
 
  - bugfixes are easy to propose, but if the changes required are complex it
-   might take a bit of discussion to ensure everyone is fine with the changes
-   and that they don't introduce any unexpected side-effects elsewhere
+   might take a bit of discussion to ensure everyone is in agreement and that
+   it doesn't introduce any unexpected side-effects elsewhere
  - documentation improvements are very underrated, and as long as they are
    applied in the right spot (some documentation is generated using tooling)
    and that a find-and-replace found all the places that needed to be changed,
    these can be much easier to approve
  - changes to APIs should be thoughtful and deliberate. Was this API already in
-   use? How will this change impact users of the library?
+   use? How will changing the API impact existing users of the library?
 
 ### You may think it's minor, but it may be more complicated
 
 Change is almost certain with any sort of software artifact, and evolving the
-software to add features, address bugs, improve performance or make it more
+software to add features, address defects, improve performance or make it more
 flexible are all things that maintainers should strive for. But change also need
 to be managed while keeping the software in a working state. This is typically
 done by using tests to verify the behaviour of the software, but there are many
@@ -153,18 +153,18 @@ This is a topic that I don't want to dig too deep into as it's already a
 lengthy post, but some cases I can think of that are relevant to
 a maintainer of a project that go beyond tests:
 
- - a bugfix that requires changing lots of code - Is there a smaller version of
+ - *a bugfix which requires changing lots of code* - Is there a smaller version of
    the bugfix that can be proposed? Are there architectural changes or test
    coverage improvements that can help give confidence that we haven't broken
    the software?
- - adding functionality - it could be something that they don't see as valuable
-   to include for everyone, something they feel requires a lot of work from them
-   to maintain, or something they don't believe fits with the existing
+ - *adding functionality* - it could be something the maintainer doesn't see as
+   valuable to include for everyone, something they feel requires a lot of work
+   from them to maintain, or something they don't believe fits with the existing
    functionality provided by the software
- - a behaviour change to the software that's already in use could affect
-   existing users - What's the benefit of this new behaviour over the old one?
-   Are there risks for others who are relying on the old behaviour? How should
-   users of the library handle this change when upgrading?
+ - *a behaviour change to existing functionality* - What's the benefit of this
+   new behaviour over the existing behaviour? Are there risks for others who are
+   relying on the existing behaviour? How should users of the library handle
+   this change when upgrading?
 
 There are plenty of ways to manage changes in software, and the maintainer
 probably has some opinions on how they want to handle this, so you may need to
@@ -196,7 +196,8 @@ able to continue to use your changes in the event they were declined by the
 maintainer.
 
 *Please confirm the license on the project permits these, as I cannot guarantee
-every project is using a sufficiently-permissive license.*
+every project is using a sufficiently-permissive license and may require you to
+also make your changes public.*
 
  - for source code you are consuming directly, forking the repository to a
    location you control and linking that as a submodule into your project means
