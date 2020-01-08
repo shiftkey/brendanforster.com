@@ -84,18 +84,23 @@ control of the situation.
 You may notice there's no item here for proposing significant changes to the
 pull request, and that's a conscious decision for a few reasons:
 
- - as a reviewer I should be helping guide the contributor rather than getting
-   too much into the implementation details
- - if there are significant things to address, it's on me as the reviewer to
-   sync up and help the contributor figure out a way forward before too much
-   time and effort is spent on the pull request
- - if the contributor gets stuck on something, pairing (physically or virtually)
-   is an option here to unblock
- - if there is an opportunity to improve that's not necessarily in scope for the
-   pull request, we should confirm it's worth spending time on, identify when it
-   should be addressed, and write it up (e.g. as a new issue)
+ - as a reviewer I should be helping guide the contributor to their goal, rather
+   than getting too much into what the solution should be
+ - if the contributor gets stuck on something, or wants to pick my brain about
+   something they're working on, a pairing session (ideally virtually) is an
+   option here to make some progress
+ - if there are significant things to address as part of a review, it's on me as
+   the reviewer to sync up and help the contributor identify the way forward
+   before too much time and effort is spent on the pull request
+ - if there is an opportunity to improve the pull request that's not necessarily
+   in scope, we should discuss and confirm it's worth spending time on, estimate
+   when it should be addressed, and document it (e.g. as a new issue)
 
-There's definitely a skill to balancing the quality of the codebase versus
-empowering the contributor to achieve what they are working towards, but I think
-constraining the reviewer to focus on feedback as much as possible helps to keep
-things moving for asynchronous teams.
+I believe there's a skill to ensuring the software continues to work as expected
+versus empowering the contributor to achieve what they are working towards, but
+I think constraining the reviewer to focus on feedback means:
+
+ - allowing the contributor to focus on the problem at hand
+ - raising questions and suggestions as soon as possible
+ - helping ensure the contributor's work aligns with how the project functions
+ - thinking about scenarios that may not be on the contributor's radar
