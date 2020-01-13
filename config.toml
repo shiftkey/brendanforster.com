@@ -27,5 +27,3 @@ pygmentsUseClasses=true
 [params]
     description = "Just a site about me and what I've been up to"
 
-[markup.goldmark.renderer]
-unsafe= true
