@@ -141,12 +141,9 @@ index 0000000..e22e053
 
 But we have several problems with this approach:
 
- - the default output is very verbose
-   - can we hide the diff and header information?
- - changes unrelated to posts are displayed
-   - can we focus the diff only on specific paths?
- - all changes are included by default in the diff output
-   - can we only focus on added files?
+ - the default output is very verbose - *can we hide the diff and header information?*
+ - changes unrelated to posts are included - *can we focus the diff only on specific paths?*
+ - all changes are displayed by default - *can we only focus on added files?*
 
 It turns out all of these options are controllable for `git-diff`.
 
