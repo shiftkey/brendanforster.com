@@ -1,7 +1,7 @@
 ---
 title: "Displaying SQL queries in Rails console"
 date: 2020-03-16
-draft: true
+area: Rails
 ---
 
 I keep using this command but also forgetting it when working in the Rails
