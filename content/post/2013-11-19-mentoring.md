@@ -14,8 +14,8 @@ put pen to paper on it and do something constructive.
 
 I'm not pretending to do something original here -
 [other](http://jamesgolick.com/2013/10/16/women-in-open-source.html)
-[people](http://log.paulbetts.org/mentoring-in-tech/) are already throwing
-their hats into the ring with similar offerings, so I figure why not do the same?
+people are already throwing their hats into the ring with similar offerings, so
+I figure why not do the same?
 
 ![Jesse Pinkman (Breaking Bad) in a car, saying 'What' to the camera](/images/jesse-what.gif)
 
@@ -29,11 +29,10 @@ Open source is one of my particular passions right now - if you're not sure
 where to start, or would like to get involved in the open source world, I'm more
 than happy to answer questions or give advice.
 
-Details:
-
- - **Email** - me@brendanforster.com
- - **Skype** brendanforster
- - **Twitter** - @shiftkey
+**UPDATE (2021):** thanks to [Geoff](https://ghuntley.com/mentoring/) for reminding me
+about this post. For now I'm going to pause this work as this was ~8 years ago and I'm
+in a place where I'm mentoring a number of colleagues at work but also find myself stepping
+back from open source work to preserve whatever remaining spare time and energy I have.
 
 ![David Tennant (as The Doctor) saying 'Hello' to someone else](/images/hello-dr-who.gif)
 
