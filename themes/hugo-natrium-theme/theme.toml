@@ -1,8 +1,8 @@
 name = "Natrium"
 license = "MIT"
-licenselink = "https://github.com/mobybit/hugo-natrium-theme/blob/master/LICENSE.md"
+licenselink = "https://github.com/neil-sabol/hugo-natrium-theme/blob/master/LICENSE.md"
 description = "Natrium minimal theme"
-homepage = "https://github.com/mobybit/hugo-natrium-theme"
+homepage = "https://github.com/neil-sabol/hugo-natrium-theme"
 tags = ["blog", "minimal", "personal", "responsive"]
 features = ["blog", "taxonomies", "privacy"]
 min_version = 0.25
