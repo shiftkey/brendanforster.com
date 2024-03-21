@@ -9,25 +9,16 @@ up to. Every now and again I'll update this.
 
 ## Where?
 
-Currently up in Halifax, Nova Scotia.
+Currently in Halifax, Nova Scotia.
 
 ## Upcoming Conferences
 
-None planned. Life changes and being sick of long-haul travel.
+None planned. Life changes and still sick of long-haul travel.
 
 ## Side Projects
 
-I had a bunch of life and work changes in 2019 which mean I'm now re-evaluating
-what this means for the open source projects that I currently maintain.
+Whatever open source stuff you may know me from is very much on a "as I feel like it" basis. This is a long story for another time but I'm very much worn out from this work and am not really using this stuff, so I don't feel the urge to work on it these days.
 
-If you're waiting for me to look at something, it's probably not going to happen
-in a hurry. Sorry.
+## Non-side projects
 
-I might start some new fun projects to scratch some new itches, but nothing
-serious planned.
-
-## I want to get in touch!
-
-My contact details are on my [GitHub](https://github.com/shiftkey/).
-
-I'm also on [Twitter](https://twitter.com/shiftkey), if that's your scene.
+Getting back into bouldering after a long hiatus, but recurring back injuries are meaning it's a slow process.
