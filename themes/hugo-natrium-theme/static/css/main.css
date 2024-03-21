@@ -156,7 +156,6 @@ blockquote {
 
 .article-content p {
   margin: 15px 0 25px;
-  hyphens: none;
 }
 
 .article-content a {
@@ -247,15 +246,7 @@ blockquote {
   display: block;
   padding: 4px 0;
   font-family: 'Lato', sans-serif;
-  color: #595959;
-  font-size: 14px;
-}
-
-.list-item-draft {
-  display: block;
-  padding: 4px 0;
-  font-family: 'Lato', sans-serif;
-  color: #595959;
+  color: #ccc;
   font-size: 14px;
 }
 
@@ -356,7 +347,7 @@ blockquote {
 }
 
 .footer-links a {
-  color: #595959;
+  color: #888;
   text-decoration: none;
   transition: color 300ms;
   margin: 0 5px;
@@ -365,16 +356,6 @@ blockquote {
 .footer-links a:hover {
   color: #222;
 }
-
-
-.footer-links .fa-rss::before {
-  padding-right: 10px;
-}
-
-.footer-links .fa-github::before {
-  padding-right: 10px;
-}
-
 
 .footer-links li::before {
   content: '•';
@@ -446,10 +427,6 @@ blockquote {
 
 .fa-chevron-up::before {
   content: "\f077";
-}
-
-.fa-twitter::before {
-  content: "\f099";
 }
 
 .fa-github::before {
@@ -534,13 +511,6 @@ blockquote {
     float: right;
   }
 
-  .list-item-draft {
-    padding: 5px 0;
-    font-size: 17px;
-    text-align: right;
-    float: right;
-  }
-
   .category-item {
      display: inline-block;
   }
@@ -564,14 +534,4 @@ blockquote {
   .error-page-title {
     font-size: 114px;
   }
-}
-
-@media (min-width: 900px) {
-  .content {
-    max-width: 900px;
-  }
-}
-
-aside blockquote {
-  font-size: 16px;
 }
