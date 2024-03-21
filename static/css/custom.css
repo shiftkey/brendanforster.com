@@ -1,0 +1,29 @@
+.list-item-draft {
+  display: block;
+  padding: 4px 0;
+  font-family: "Lato", sans-serif;
+  color: #595959;
+  font-size: 14px;
+}
+
+.footer-links .fa-rss::before {
+  padding-right: 10px;
+}
+
+.footer-links .fa-github::before {
+  padding-right: 10px;
+}
+
+.fa-twitter::before {
+  content: "\f099";
+}
+
+@media (min-width: 900px) {
+  .content {
+    max-width: 900px;
+  }
+}
+
+aside blockquote {
+  font-size: 16px;
+}
