@@ -26,13 +26,13 @@ Run the following inside your Hugo site folder:
 ```
 $ mkdir themes
 $ cd themes
-$ git clone https://github.com/mobybit/hugo-natrium-theme
+$ git clone https://github.com/neil-sabol/hugo-natrium-theme
 ```
 
 ## Configuration
 
-Take a look at the sample [config.toml](https://github.com/mobybit/hugo-natrium-theme/blob/master/exampleSite/config.toml)
-file located in the [exampleSite](https://github.com/mobybit/hugo-natrium-theme/blob/master/exampleSite) folder.
+Take a look at the sample [config.toml](https://github.com/neil-sabol/hugo-natrium-theme/blob/master/exampleSite/config.toml)
+file located in the [exampleSite](https://github.com/neil-sabol/hugo-natrium-theme/blob/master/exampleSite) folder.
 
 ## Content Types
 
@@ -54,7 +54,7 @@ Natrium is using [Chroma](https://gohugo.io/content-management/syntax-highlighti
 
 ## License
 
-The code is available under the [MIT License](https://github.com/mobybit/hugo-natrium-theme/blob/master/LICENSE.md). 
+The code is available under the [MIT License](https://github.com/neil-sabol/hugo-natrium-theme/blob/master/LICENSE.md). 
 
 Natrium is using [Font Awesome](http://fontawesome.io) by Dave Gandy ([SIL OFL 1.1](http://scripts.sil.org/OFL)). Realated files (CSS, LESS, SCSS) are licensed under the [MIT License](http://opensource.org/licenses/mit-license.html).
 
