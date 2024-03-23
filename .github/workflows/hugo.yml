@@ -1,4 +1,4 @@
-name: Deploy Hugo site to Pages
+name: Hugo
 
 on:
   pull_request:
