@@ -14,20 +14,6 @@
   padding-right: 10px;
 }
 
-.fa-twitter::before {
-  font-family: 'FontAwesomeBrands';
-  content: "\f099";
-}
-
-.fa-github::before {
-  font-family: 'FontAwesomeBrands';
-  content: "\f09b";
-}
-
-.fa-mastodon::before {
-  font-family: 'FontAwesomeBrands';
-  content: "\F4F6";
-}
 
 @media (min-width: 900px) {
   .content {

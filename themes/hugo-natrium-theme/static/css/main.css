@@ -416,29 +416,6 @@ blockquote {
   color: #ccc;
 }
 
-.fa {
-  font-family: 'FontAwesome';
-  font-style: normal;
-}
-
-.fa-rss::before {
-  content: "\f09e";
-}
-
-.fa-chevron-up::before {
-  content: "\f077";
-}
-
-.fa-github::before {
-  content: "\f09b";
-}
-
-.fa-tags::before {
-  content: "\f02c";
-  float: left;
-  padding: 0px 10px 50px 0;
-}
-
 .fa-category::before {
   content: "\f07c";
   float: left;
