@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+  <article class="article">
+    <h1 class="article-title">{{ .Title }}</h1>
+    {{ if eq .Section "notes" }}
+    <span class="article-date">Last updated: {{ .Page.Lastmod.Format "2006-01-02" }}</span>
+    {{ else if eq .Section "post" }}
+    <span class="article-date">{{ .Date.Format "2006-01-02" }}</span>
+    {{ end }}
+
+    <section class="introduction">
+      {{ .Content }}
+    </section>
+
+    {{ with .Resources.Match "**.md" }}
+      {{ range sort . ".Params.date" }}
+        {{ if not (.Params.draft) }}
+          <section class="entry">
+            <h3>{{ .Title }}</h2>
+            {{ .Content }}
+            </section>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+  </article>
+
+</main>
+
+{{ partial "footer.html" . }}
