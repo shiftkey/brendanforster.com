@@ -11,7 +11,7 @@ character to help categorize each bit of feedback.
 Here's [an example](https://github.com/desktop/desktop/pull/7635#discussion_r287833836)
 of how it looks in action:
 
-{{< picture "/images/review-emoji/suggested-change" >}}
+{{< picture "/images/review-emoji/suggested-change" "A suggested change review comment" >}}
 
 I'll save the details and my opinions about code review itself for another post,
 as I think this guide can stand on it's own.
